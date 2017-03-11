@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "fastboot-app-server": "1.0.0-rc.5"
+    "fastboot-app-server": "1.0.0-rc.5",
+    "fastboot-s3-downloader": "bcardarella/fastboot-s3-downloader#bc-support-tarballs",
+    "fastboot-s3-notifier": "^0.1.1"
   }
 }

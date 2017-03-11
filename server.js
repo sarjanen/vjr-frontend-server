@@ -2,9 +2,9 @@ const FastBootAppServer = require('fastboot-app-server');
 const S3Notifier = require('fastboot-s3-notifier');
 const S3Downloader = require('fastboot-s3-downloader');
 const Creds = {
-  distPath: 'dist',
+  distPath: './deploy-dist',
   bucket: 'vanligajavlarecept',
-  key: 'dist.zip'
+  key: 'fastboot-deploy-info.json'
 };
 
 let downloader = new S3Downloader(Creds);
