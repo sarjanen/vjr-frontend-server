@@ -11,7 +11,8 @@ let downloader = new S3Downloader(Creds);
 let notifier = new S3Notifier(Creds);
 let server = new FastBootAppServer({
   downloader,
-  notifier
+  notifier,
+  gzip: true
 });
 
 server.start();
