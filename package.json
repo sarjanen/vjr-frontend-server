@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Timmie Sarjanen <timmie.sarjanen@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "fastboot-app-server": "1.0.0-rc.5",
     "fastboot-s3-downloader": "^0.2.1",
     "fastboot-s3-notifier": "^0.1.1"
-  }
+  },
+  "repository": "git@github.com:Padchi/vjr-frontend-server.git"
 }
