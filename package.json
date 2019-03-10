@@ -9,7 +9,7 @@
   "author": "Timmie Sarjanen <timmie.sarjanen@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "fastboot-app-server": "1.1.0",
+    "fastboot-app-server": "^1.1.2-beta.1",
     "fastboot-s3-downloader": "^0.2.1",
     "fastboot-s3-notifier": "^0.1.1"
   },
